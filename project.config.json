@@ -11,7 +11,7 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.8.0",
+	"libVersion": "2.9.0",
 	"appid": "wx785dd6dd751daf79",
 	"projectname": "fitness",
 	"isGameTourist": false,

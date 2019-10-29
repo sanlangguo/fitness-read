@@ -1,12 +1,46 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
-  ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+	"pages": [
+		"pages/training/index",
+		"pages/index/index",
+		"pages/diet/index",
+		"pages/reading/index",
+		"pages/my/index"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "健身读书",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"color": "#a9b7b7",
+		"selectedColor": "#f75b1f",
+		"borderStyle": "none",
+		"list": [
+			{
+				"selectedIconPath": "assets/img/training-pass.png",
+				"iconPath": "assets/img/training.png",
+				"pagePath": "pages/training/index",
+				"text": "训练"
+			},
+			{
+				"selectedIconPath": "assets/img/training-pass.png",
+				"iconPath": "assets/img/training.png",
+				"pagePath": "pages/diet/index",
+				"text": "饮食"
+			},
+			{
+				"selectedIconPath": "assets/img/training-pass.png",
+				"iconPath": "assets/img/training.png",
+				"pagePath": "pages/reading/index",
+				"text": "读书"
+			},
+			{
+				"selectedIconPath": "assets/img/training-pass.png",
+				"iconPath": "assets/img/training.png",
+				"pagePath": "pages/my/index",
+				"text": "我的"
+			}
+		]
+	}
 }
